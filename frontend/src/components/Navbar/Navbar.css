@@ -188,13 +188,16 @@
     --cards-text-color: #fff; /* White text color for cards container */
 }
 
+:root .logo {
+    filter: var(--logos-filter); 
+}
 
 .lightcolors .logo {
     filter: none; 
 }
 
 :root .navbar-menu .active{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 .lightcolors .navbar-menu .active{
@@ -203,7 +206,7 @@
 
 
 :root .navbar-menu {
-    color: black; 
+    color: white; 
 }
 
 .lightcolors .navbar-menu {
