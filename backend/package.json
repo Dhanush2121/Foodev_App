@@ -5,8 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
-  },
+  "start": "node server.js",
+  "vercel-build": "node server.js",
+  "server": "nodemon server.js"
+},
   "author": "Dhanush Javvadhi",
   "license": "ISC",
   "dependencies": {
