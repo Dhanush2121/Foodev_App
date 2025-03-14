@@ -5,14 +5,13 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-  "start": "node server.js",
-  "vercel-build": "node server.js",
-  "server": "nodemon server.js"
-},
+    "start": "node server.js",
+    "vercel-build": "node server.js",
+    "server": "nodemon server.js"
+  },
   "author": "Dhanush Javvadhi",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
